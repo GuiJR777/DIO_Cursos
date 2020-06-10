@@ -1,0 +1,18 @@
+Introdução Ao Git e Controle de Versão
+
+Aula1:
+Conceitos
+Gerenciar diferentes versões no desonvolvimento de um documento.
+
+Aula2:
+Comandos
+git init = para iniciar git em um diretório
+git clone= obter controle remoto de um projeto, clona-lo
+git add . ou git add <<nome_arquivo>>: adiciona arquivos a um diretório
+git commit -m 'mensagem de commit': salva os arquivos para serem editados no repositório local, coçocar boa mensagem
+git push: publicar alterações em um servidor remoto
+git pull: baixar alterações do repositório remoto
+git merge: juntar alterações com o o codigo principal
+git status:retorna informações do repositório
+git log: sobre alterações
+git branch <<nome da branch>> cria ramos de desenvolvimento

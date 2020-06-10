@@ -1,0 +1,23 @@
+Introdução ao GitHub e comandos para trabalhar em equipe
+aula1
+Github
+upar para o github
+git remote add origin (link github)
+git remote rm origin
+git add origin git hub
+git push -u origin master
+colocar user e senha
+aula 2
+ branch
+git branch: lista branchs
+git branch nome: cria branch com nome escolhido
+git checkout nome: troca branch ativa
+git branch -D nome:deleta branch escolhida
+cls: limpa terminal
+dir: lista diretórios
+cd: navega
+NUL>nome: cria arquivo
+mkdir nome:cria diretório
+aula3
+git merge nome branch:juntar branchs
+ 
