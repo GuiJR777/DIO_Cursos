@@ -1,0 +1,33 @@
+arquitetura de sistemas
+SGDBR- SQL
+
+SQL- 3 grandes pilares:
+	Data Definition Language (DDL)
+	Data Manipulation Language (DML)
+	Data Querry Language (DQL)
+
+DDL:
+Create Table Cliente(
+	Codigo number(10) Not Null Primary Key,
+	Nome varchar(50) Not Null,
+	Telefone varchar(15)
+	)
+DML:
+Insert into Cliente (Codigo, Nome, Telefone)
+	values(1, "Lorem Ipsum", "(88)99999 9999")
+
+Delete from Cliente
+Where Codigo= 1
+
+Update Cliente
+set Nome= "Lorem Ipsum 2"
+Where Codigo= 1
+
+DQL:
+Select  Codigo,
+	Nome
+	from Cliente
+    <Where> Codigo= 1	
+	<Group by> Profissao
+	<Having> Count(1) > 0
+    <Order by> Nome, Codigo
