@@ -1,0 +1,57 @@
+body{
+    background-image: url("/img/Plumeria\ -\ Background.png");
+    background-attachment: fixed;
+}
+
+
+h3, p{
+    margin: 16px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+.navbar{
+    background-color: #FFDE59;
+    
+}
+.fundadora, .parceiros{
+    background-color: #ffde599c;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: black;
+    
+    
+}
+.quemsomos, .servicos{
+    background-color: #c8acffcb;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: white;
+    
+}
+
+.col-lg-5 img{
+    width: 100%;
+    height: auto;
+}
+.lista-parceiros{
+    margin-top: 48px;
+}
+.lista-parceiros img{
+    width: 100px;
+    height: 100px;
+}
+
+section{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+footer{
+    background-color: #FFDE59;
+}
+
+
+
