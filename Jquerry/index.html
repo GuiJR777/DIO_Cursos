@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquerry Teste</title>
+    <script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-white">Consulta Cep</a>
+        <div class="form-inline my-2 my-lg-0">
+            <input type="search" class="form-control mr-sm-2" placeholder="Digite um Cep para buscar" id="cep">
+            <button class="btn btn-outline-success my-2 my-sm-0" onclick="consultaCep()">Buscar</button>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <div class="container bar">
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+        </div>
+    </div>
+    <div class="container result cep">
+        <div class="row">
+            <h3 id="titulo">Cep</h3>
+        </div>
+        <div class="row">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Endereço</td>
+                        <td id="rua"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Bairro</td>
+                        <td id="bairro"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Cidade</td>
+                        <td id="cidade"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Uf</td>
+                        <td id="uf"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+   
+</body>
+</html>
